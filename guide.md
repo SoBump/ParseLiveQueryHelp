@@ -3,15 +3,15 @@
 _This was written on 10.22.2018_, using Parse-Server 2.5 or later. 
 
 ## Table of Contents:
-* [One Server Setup]()
-* [Separate Live Query Server Setup]()
-* [Resources]()
-	* [A note about AWS]()
-	* [AWS Nginx Config]()
-* [Troubleshooting]()
+* [One Server Setup](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#one-server-setup)
+* [Separate Live Query Server Setup](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#separate-live-query-server-setup)
+* [Resources](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#resources)
+	* [A note about AWS](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#a-note-about-aws)
+	* [AWS Nginx Config](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#aws-nginx-config)
+* [Troubleshooting](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#troubleshooting)
 
 ## One Server Setup
-It’s possible to set up a Parse Live Query Server on a single server or single instance of your application. **Please note that if your application runs over multiple instances, users will likely be connected to different sockets which could prevent them from connecting in real time to one another. It is recommended that you use the** [Separate Live Query Server Setup]()
+It’s possible to set up a Parse Live Query Server on a single server or single instance of your application. **Please note that if your application runs over multiple instances, users will likely be connected to different sockets which could prevent them from connecting in real time to one another. It is recommended that you use the** [Separate Live Query Server Setup](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#separate-live-query-server-setup)
 
 In your `ParseServer` setup,  first include the `liveQuery` key with the following object, specifying the class names of the Mongo objects that you will live query with.
 

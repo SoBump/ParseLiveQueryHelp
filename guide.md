@@ -2,6 +2,8 @@
 
 _This was written on 10.22.2018, using Parse-Server 2.5 or later._
 
+_[Come work at BUMP in NYC!](https://jobs.lever.co/sobump)_
+
 ## Table of Contents:
 * [One Server Setup](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#one-server-setup)
 * [Separate Live Query Server Setup](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#separate-live-query-server-setup)

@@ -162,8 +162,8 @@ files:
      content: |
        #!/bin/bash -xe
        rm -f /etc/nginx/conf.d/00_elastic_beanstalk_proxy.conf
-       service nginx stop
-       service nginx start
+       initctl nginx stop
+       initctl nginx start
 
 container_commands:
   removeconfig:

@@ -57,6 +57,8 @@ Heroku:
 ![](https://docs.parseplatform.org/assets/images/lq_heroku.png)
 
 ## Resources:
+* [Working index.js file for a Single Server Setup](https://gist.github.com/zackshapiro/279d4acf83e81da0ea03f3553619ef87)
+* [Working index.js files for a Separate Live Query Server Setup](https://gist.github.com/zackshapiro/8c8b1967da5788ffed801ff4e9184dde) 
 * [ParsePlatform/Chat - Gitter](https://gitter.im/ParsePlatform/Chat) – A great community of Parse users. Feel free to shoot me a message on there if you have questions.
 * [Parse Server Guide | Parse](https://docs.parseplatform.org/parse-server/guide/#live-queries)
 * Test your web socket URL [websocket.org Echo Test - Powered by Kaazing](https://www.websocket.org/echo.html)

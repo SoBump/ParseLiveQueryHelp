@@ -65,7 +65,7 @@ Heroku:
 
 In order for Parse Live Query Servers to work, you need to make sure that in Elastic Beanstalk -> Your Server Name -> Configuration your Load Balancer type is `application`. If you’re using a Classic Load Balancer, Parse Live Query will not work.
 
-![](&&&SFLOCALFILEPATH&&&Screen%20Shot%202018-10-22%20at%203.48.56%20PM.png)
+![](https://duaw26jehqd4r.cloudfront.net/items/2d093s2s3R170g2o0F3e/Screen%20Shot%202018-10-22%20at%203.48.56%20PM.png?v=38307bbf)
 
 ### AWS Nginx Config
 

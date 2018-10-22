@@ -1,6 +1,6 @@
 # BUMP's Parse Live Query Guide – How to Set Up A Parse Live Query Server
 
-_This was written on 10.22.2018_, using Parse-Server 2.5 or later. 
+_This was written on 10.22.2018, using Parse-Server 2.5 or later._
 
 ## Table of Contents:
 * [One Server Setup](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#one-server-setup)

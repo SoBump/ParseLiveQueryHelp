@@ -30,7 +30,7 @@ You’ll connect via a client by doing `self.client = ParseLiveQuery.client(serv
 
 **Diagram of the Single Server Setup**
 
-![](&&&SFLOCALFILEPATH&&&lq_local.png)
+![](https://docs.parseplatform.org/assets/images/lq_local.png)
 
 
 ## Separate Live Query Server Setup
@@ -48,7 +48,13 @@ Some keys to note here:
 
 **Diagram of a the Separate Live Query Server setup (via Parse docs):**
 
-![](&&&SFLOCALFILEPATH&&&lq_multiple.png)
+AWS:
+
+![](https://docs.parseplatform.org/assets/images/lq_multiple.png)
+
+Heroku:
+
+![](https://docs.parseplatform.org/assets/images/lq_heroku.png)
 
 ## Resources:
 * [ParsePlatform/Chat - Gitter](https://gitter.im/ParsePlatform/Chat) – A great community of Parse users. Feel free to shoot me a message on there if you have questions.

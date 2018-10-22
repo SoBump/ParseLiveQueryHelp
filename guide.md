@@ -11,7 +11,7 @@ _This was written on 10.22.2018, using Parse-Server 2.5 or later._
 * [Troubleshooting](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#troubleshooting)
 
 ## One Server Setup
-It’s possible to set up a Parse Live Query Server on a single server or single instance of your application. **Please note that if your application runs over multiple instances, users will likely be connected to different sockets which could prevent them from connecting in real time to one another. It is recommended that you use the** [Separate Live Query Server Setup](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#separate-live-query-server-setup)
+It’s possible to set up a Parse Live Query Server on a single server or single instance of your application. **Please note that if your application runs over multiple instances, users will likely be connected to different sockets which could prevent them from connecting in real time to one another. It is recommended that you use the** [Separate Live Query Server Setup](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#separate-live-query-server-setup).
 
 In your `ParseServer` setup,  first include the `liveQuery` key with the following object, specifying the class names of the Mongo objects that you will live query with.
 
@@ -22,11 +22,11 @@ In your `ParseServer` setup,  first include the `liveQuery` key with the followi
   },
 ```
 
-_Note: I signed up for a Redis Cloud Free Tier Account (see Resources) to get this URL and password_
+_Note: I signed up for a Redis Cloud Free Tier Account (see [Resources](https://github.com/SoBump/ParseLiveQueryHelp/blob/master/guide.md#resources)) to get this URL and password_.
 
-For an example working index.js file, see the following Gist – [Single Server Live Query Setup · GitHub](https://gist.github.com/zackshapiro/279d4acf83e81da0ea03f3553619ef87)
+**For an example working `index.js` file, see the following Gist – [Single Server Live Query Setup · GitHub](https://gist.github.com/zackshapiro/279d4acf83e81da0ea03f3553619ef87)**
 
-You’ll connect via a client by doing `self.client = ParseLiveQuery.client(server: "wss://myApp.com")` (this is Swift 4, this will change depending on your client language)
+You will connect via your client by doing `self.client = ParseLiveQuery.client(server: "wss://myApp.com")` (this is Swift 4, this will change depending on your client language)
 
 **Diagram of the Single Server Setup**
 

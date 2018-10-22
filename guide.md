@@ -38,7 +38,7 @@ The benefit of running a separate Live Query Server from the rest of your produc
 
 For example, my app is deployed on 30+ AWS instances (read: servers) but all of them connect to `wss://socket.myApp.com` to use my Parse Live Query server, so it doesn’t matter which instance a user is doing their session’s requests on.
 
-For an example of two working index.js files, see the following Gist – [Parse Separate Live Query Server Setup  · GitHub](https://gist.github.com/zackshapiro/8c8b1967da5788ffed801ff4e9184dde)
+**For an example of two working `index.js` files, see the following Gist – [Parse Separate Live Query Server Setup  · GitHub](https://gist.github.com/zackshapiro/8c8b1967da5788ffed801ff4e9184dde)**
 
 Some keys to note here:
 * Your main app’s `index.js` file includes the key `liveQuery` with the associated object. The `redisURL` key is optional, only include if you’re using Redis.
